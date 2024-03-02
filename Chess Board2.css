@@ -1,0 +1,49 @@
+h1{
+    font-style: oblique;
+    text-decoration: underline;
+    text-align: center;
+    background-color:bisque;
+    color: blue;
+
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainer{
+    border: 3px solid black;
+    width: 430px;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border:2px solid black;
+    width: 388px;
+    height: 388px;
+    border-collapse: collapse;
+    
+}
+.white{
+    background-color:lightgrey;
+    width: 45px;
+    height: 45px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+
+.black{
+    background-color: black;
+    width: 45px;
+    height: 45px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
